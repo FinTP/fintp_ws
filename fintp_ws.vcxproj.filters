@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\WSU">
+      <UniqueIdentifier>{5f73da7d-d62f-432d-9f78-56f8f83a023b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WSRM">
+      <UniqueIdentifier>{686fe5e0-8614-4b69-b8fc-572857a46bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Soap">
+      <UniqueIdentifier>{b03cb6b4-b562-4037-a276-ec780d8c93b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Soap">
+      <UniqueIdentifier>{8b43c26a-1b0c-4384-bcef-c8b5d410fc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WSRM">
+      <UniqueIdentifier>{671d4382-f0ca-4294-b513-ac8380be4266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WSU">
+      <UniqueIdentifier>{a7798501-e549-4db6-b665-9f1e654d8a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\WSSerializable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WSU\Identifier.cpp">
+      <Filter>Source Files\WSU</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WSRM\Ack.cpp">
+      <Filter>Source Files\WSRM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WSRM\AcknowledgementRange.cpp">
+      <Filter>Source Files\WSRM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WSRM\Nack.cpp">
+      <Filter>Source Files\WSRM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WSRM\SequenceAcknowledgement.cpp">
+      <Filter>Source Files\WSRM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WSRM\SequenceFault.cpp">
+      <Filter>Source Files\WSRM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WSRM\SequenceResponse.cpp">
+      <Filter>Source Files\WSRM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WSRM\SequenceType.cpp">
+      <Filter>Source Files\WSRM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SOAP\SoapHeader.cpp">
+      <Filter>Source Files\Soap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WSVersionInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DllMainWs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\WSSerializable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XmlStringUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SOAP\SoapHeader.h">
+      <Filter>Header Files\Soap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WSRM\Ack.h">
+      <Filter>Header Files\WSRM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WSRM\AcknowledgementRange.h">
+      <Filter>Header Files\WSRM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WSRM\Nack.h">
+      <Filter>Header Files\WSRM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WSRM\SequenceAcknowledgement.h">
+      <Filter>Header Files\WSRM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WSRM\SequenceFault.h">
+      <Filter>Header Files\WSRM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WSRM\SequenceResponse.h">
+      <Filter>Header Files\WSRM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WSRM\SequenceType.h">
+      <Filter>Header Files\WSRM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WSU\Identifier.h">
+      <Filter>Header Files\WSU</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DllMainWs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
